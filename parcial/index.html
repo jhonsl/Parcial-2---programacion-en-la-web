@@ -13,8 +13,10 @@
 			<div class="section">
 				<div id="search-container">
 					<label>Earth Date:</label>
-					<input type="date" />
-					<button id="search-button">Find</button>
+					<input id="date-input" type="date" />
+					<button onclick="searchByDate()" id="search-button">
+						Find
+					</button>
 				</div>
 
 				<div id="table-container">
@@ -41,13 +43,24 @@
 			<div class="section">
 				<h2>Photo Detail</h2>
 
-				<img id="photo" src="" alt="Mars Rover Photo" />
+				<img
+					id="photo"
+					src=""
+					width="250"
+					height="250"
+					alt="Mars Rover Photo"
+				/>
 
 				<br />
 
 				<strong>Id: </strong>
+				<p id="id"></p>
+
 				<strong>Martian sol: </strong>
+				<p id="martian"></p>
+
 				<strong>Earth date: </strong>
+				<p id="earth"></p>
 			</div>
 		</div>
 	</body>

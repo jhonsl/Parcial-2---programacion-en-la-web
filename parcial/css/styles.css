@@ -34,6 +34,7 @@ td {
 
 button {
 	color: white;
+	cursor: pointer;
 	padding: 5px 30px;
 	border-radius: 5px;
 	background-color: black;
